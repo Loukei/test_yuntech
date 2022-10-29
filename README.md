@@ -17,3 +17,4 @@
 - [ASP.NET Core 使用者入門 | Microsoft Learn](https://learn.microsoft.com/zh-tw/aspnet/core/getting-started/?view=aspnetcore-6.0&tabs=windows)
 - [ASP.NET Core MVC 使用者入門 | Microsoft Learn](https://learn.microsoft.com/zh-tw/aspnet/core/tutorials/first-mvc-app/start-mvc?view=aspnetcore-6.0&tabs=visual-studio-code)
 - [Learn ASP.NET Core MVC (.NET 6) - Full Course - YouTube](https://www.youtube.com/watch?v=hZ1DASYd9rk)
+- [The ASP.NET Core MVC Tutorial](https://asp.mvc-tutorial.com/)
