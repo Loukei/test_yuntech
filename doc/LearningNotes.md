@@ -41,3 +41,22 @@ public IActionResult Index(){
 - `View()`這段程式碼做了什麼?
   - 他是如何取出`index.cshtml`的模板內容，如何找到對應的檔案位置與檔名
   - `IActionResult`是什麼?
+
+---
+
+
+``` C#
+///ex:  GET /HalloWorld/Welcome?name=peter&numtimes=4
+public IActionResult Welcome(string name = "", int numtimes = 1){
+    ViewData["Message"] = "Hello, " + name;
+    ViewData["numtimes"] = numtimes;
+    return View();
+}
+```
+
+- `ViewData`是否為一種類似Python的`dict`結構，能夠儲存任意型態的字典資料
+- `ViewData`是怎麼被送進`View()`的?
+
+## 感想
+
+- 這框架跟Django一樣有一些慣例要遵循，並且有些細節被隱藏起來看不到，對初學者來說要記憶的慣例跟想像的工作流程會是一個負擔

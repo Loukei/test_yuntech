@@ -15,9 +15,11 @@ namespace MvcSchool.Controllers
             return View();
         }
 
-        /// GET /HalloWorld/Welcome
-        public string Welcome(string name = "", int numtimes = 1){
-            return HtmlEncoder.Default.Encode($"Hello {name}, welcome {numtimes}.");
+        ///ex:  GET /HalloWorld/Welcome?name=peter&numtimes=4
+        public IActionResult Welcome(string name = "", int numtimes = 1){
+            ViewData["Message"] = "Hello, " + name;
+            ViewData["numtimes"] = numtimes;
+            return View();
         }
     }
 }

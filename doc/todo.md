@@ -1,8 +1,8 @@
 # TODO
 
-- [ ][建立網站骨架並成功執行](#建立網站骨架並成功執行)
-- [ ][建立一個halloworld的頁面](#建立一個halloworld的頁面)
-  - [ ]建立一個新的
+- [x][建立網站骨架並成功執行](#建立網站骨架並成功執行)
+- [x][建立一個halloworld的頁面](#建立一個halloworld的頁面)
+  - [x][嘗試使用Template修改Hallo world頁面](#嘗試使用Template修改Hallo world頁面)
 
 ## 建立網站骨架並成功執行
 
@@ -10,10 +10,8 @@
 
 ## 建立一個HalloWorld的頁面
 
-新增一個URL規則
-建立一個Controller，輸出hallo world字串
-
-## 建立一個
+~~新增一個URL規則~~
+~~建立一個Controller，輸出hallo world字串~~
 
 ## 嘗試使用Template修改Hallo world頁面
 
