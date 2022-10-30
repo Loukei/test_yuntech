@@ -35,21 +35,20 @@ CREATE TABLE [課程資料] (
 );
 
 CREATE TABLE [學期課程資料] (
-    -- 每學期課號是唯一
     -- 學年 
     [ACAD_YEAR] TINYINT NOT NULL,
     -- 學期
-    [SEME_TYPE] ,
+    [SEME_TYPE] CHAR(3) NOT NULL,
     -- 學期課號
     [COURSE_NO] BIGINT NOT NULL UNIQUE,
     -- 開課系所代碼
     [DEPT_CODE] BIGINT NOT NULL,
-    -- 課程編號
+    -- 課程編號 每學期課號是唯一
     [SUBJ_NO] BIGINT NOT NULL,
     -- 學分數
     [CREDITS] INT NOT NULL,
     -- 修別??
-    [MAJ_OP] ,
+    [MAJ_OP] CHAR(2) NOT NULL,
     -- 授課教師
     [TEACHER] VARCHAR(20) NOT NULL,
     PRIMARY KEY ([COURSE_NO]),
@@ -62,8 +61,8 @@ CREATE TABLE [學生選課資料] (
     -- 學年
     [ACAD_YEAR] TINYINT NOT NULL,
     -- 學期
-    [SEME_TYPE] ,
+    [SEME_TYPE] CHAR(3) NOT NULL,
     -- 學期課號
-    [COURSE_NO] ,
+    [COURSE_NO] BIGINT NOT NULL,
     PRIMARY KEY ([STUD_NO]),
 );
