@@ -16585,6 +16585,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\weber\\OneDrive\\Projects\\dotnet_core\\test_yuntech\\src\\School\\Views\\Student\\List.cshtml",
+      "TargetPath": "Views\\Student\\List.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\weber\\OneDrive\\Projects\\dotnet_core\\test_yuntech\\src\\School\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"

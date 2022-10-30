@@ -57,6 +57,24 @@ public IActionResult Welcome(string name = "", int numtimes = 1){
 - `ViewData`是否為一種類似Python的`dict`結構，能夠儲存任意型態的字典資料
 - `ViewData`是怎麼被送進`View()`的?
 
+---
+
+## 引入資料庫檔案
+
+
+bak
+- [How to Restore a .bak File using Azure Data Studio](https://www.quackit.com/sql_server/mac/how_to_restore_a_bak_file_using_azure_data_studio.cfm)
+
+mdf
+
+---
+
+## 路由規則
+
+- [[鐵人賽Day06] - 路由(Route) - iT 邦幫忙::一起幫忙解決難題，拯救 IT 人的一天](https://ithelp.ithome.com.tw/articles/10203560)
+
+---
+
 ## 感想
 
 - 這框架跟Django一樣有一些慣例要遵循，並且有些細節被隱藏起來看不到，對初學者來說要記憶的慣例跟想像的工作流程會是一個負擔
